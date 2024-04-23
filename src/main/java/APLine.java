@@ -1,7 +1,9 @@
 public class APLine
 {
-  private int a, b, c;
-  Public APLine (int x, int y, int slope) {
+  private int a;
+  private int b;
+  private int c;
+  public APLine (int x, int y, int slope) {
     a = x;
     b = y;
     c = slope;
