@@ -3,10 +3,10 @@ public class APLine
   private int a;
   private int b;
   private int c;
-  public APLine (int x, int y, int slope) {
+  public APLine (int x, int y, int z) {
     a = x;
     b = y;
-    c = slope;
+    c = z;
   }
   public int getSlope(){
     return -(a/b);
